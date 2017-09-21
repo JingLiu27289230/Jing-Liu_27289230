@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Level 5-Drift</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        
+        .moveBox {
+            width: 290px;
+            height: 70px;
+            padding-left: 15px;
+            margin: 10px;
+            background-color: cadetblue;
+            color: antiquewhite;
+            font-weight: bold;
+            position: relative;
+            -webkit-animation: animation 5s infinite; 
+            animation: animation 5s infinite;
+        }
+
+        /* Safari 4.0 - 8.0 */
+        #div1 {-webkit-animation-timing-function: linear;}
+        #div2 {-webkit-animation-timing-function: ease;}
+        #div3 {-webkit-animation-timing-function: ease-in;}
+        #div4 {-webkit-animation-timing-function: ease-out;}
+        #div5 {-webkit-animation-timing-function: ease-in-out;}
+
+        /* Standard syntax */
+        #div1 {animation-timing-function: linear; margin-top: 100px;}
+        #div2 {animation-timing-function: ease;}
+        #div3 {animation-timing-function: ease-in;}
+        #div4 {animation-timing-function: ease-out;}
+        #div5 {animation-timing-function: ease-in-out;}
+
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes animation {
+            from {left: 0px;}
+            to {left: 800px;}
+        }
+
+        /* Standard syntax */
+        @keyframes animation {
+            from {left: 0px;}
+            to {left: 800px;}
+        }
+        
+        h1{
+            color: cadetblue;
+            text-align: center;
+            margin-top: 170px;
+            border: 1.5px solid cadetblue;
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+        
+        a{
+                position: fixed;
+                top: 95%;
+                left: 15px;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="moveBox" id="div1">Allow yourself to wander aimlessly. Explore adjacencies. Lack judgment. Postpone criticism.</div>
+    <div class="moveBox" id="div2">Allow yourself to wander aimlessly. Explore adjacencies. Lack judgment. Postpone criticism.</div>
+    <div class="moveBox" id="div3">Allow yourself to wander aimlessly. Explore adjacencies. Lack judgment. Postpone criticism.</div>
+    <div class="moveBox" id="div4">Allow yourself to wander aimlessly. Explore adjacencies. Lack judgment. Postpone criticism.</div>
+    <div class="moveBox" id="div5">Allow yourself to wander aimlessly. Explore adjacencies. Lack judgment. Postpone criticism.</div>
+    
+    <h1>DRIFT</h1>
+    
+    <a href="Level%205-study.html">
+            <div id="Level 5-Study">Level 5-Study</div>
+    </a>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Level 5-keep moving</title>
+    <style> 
+        #moveBox {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            -webkit-animation-name: example; 
+            -webkit-animation-duration: 4s; 
+            -webkit-animation-iteration-count: infinite; 
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        @-webkit-keyframes example {
+            0%   {background-color:red; left:0; top: 400px;}
+            25%  {background-color:yellow; left:300px;; top: 400px;}
+            50%  {background-color:blue; left:600px; top: 400px;}
+            75%  {background-color:green; left:900px; top: 400px;}
+            100% {background-color:red; left:1200px; top: 400px;}
+        }
+        
+        h1{
+            font-size: 40px;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            margin-left: -110px;
+            margin-top: -20px;
+        }
+        
+        a{
+                position: fixed;
+                top: 95%;
+                left: 15px;
+            }
+
+    </style>
+</head>
+<body>
+
+    <div id=moveBox></div>
+    
+    <h1><em>Keep Moving</em></h1>
+    
+    <a href="Level%205-drift.html">
+            <div id="Level 5-Drift">Level 5-Drift</div>
+    </a>
+
+</body>
+</html>
